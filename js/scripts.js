@@ -17,7 +17,7 @@ Contact.prototype.fullName = function() {
 }
 
 Address.prototype.fullAddress = function() {
-  return "Address type: " this.type + "<br>" + this.street + ", " + this.city + ", " + this.state;
+  return "Address type: " + this.type + "<br>" + this.street + ", " + this.city + ", " + this.state;
 }
 
 function resetFields() {
